@@ -80,7 +80,7 @@ xlim([-LimMin LimMin]);
 %
 % $f(x)=\frac{x}{\sigma_{g}^2}\exp{\Big(-\frac{x^2}{2 \sigma_{g}^2} \Big)}$
 %
-% Mathematical description :?
+% Mathematical description :
 % <https://onlinelibrary.wiley.com/doi/abs/10.1002/cmr.a.20124 Cardenas Blanco et Al>
 %
 % Ideal magnitude signal / pixel intensity is : 
@@ -215,7 +215,7 @@ legend(labels)
 % either with a sum of square reconstruction or a sense-based coil
 % combinaison reconstruction.
 %
-% Mathematical description can be find in 
+% Mathematical description can be find in
 % <https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910380524 ?Constantinides et Al>
 %
 % The noise distribution of L-elements array coil follow a non-central chi
