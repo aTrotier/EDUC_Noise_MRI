@@ -102,7 +102,9 @@ xlim([-LimMin LimMin]);
 % <<image/Rayleigh_3.png>>
 
 %%%
-% If the Signal-to-Noise Ratio is $ +\infty$, curvature is negligeable and the integral
+% If the Signal-to-Noise Ratio is 
+% $+\infty$
+% , curvature is negligeable and the integral
 % of the function (the distribution) in function of the Intensity of the
 % signal $\| \vec{I} \|$ is a gaussian
 %%%
