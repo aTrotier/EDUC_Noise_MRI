@@ -119,12 +119,12 @@ xlim([-LimMin LimMin]);
 % <<image/Rayleigh_6.png>>
 
 %%%
-% The distribution is a Rician distribution : 
+% The noise follows a Rician distribution : 
 %
 % $P_m(m|A,\sigma_g)=\frac{m}{\sigma_g^2}\exp \Big[-\frac{(A^2+m^2)}{2 \sigma_g^2} \Big]I_0 \Big(\frac{Am}{\sigma_g^2}\Big)H(m)$
 %
 % where $I_n$ is the noisy signal measured, $I$ is the "real" signal and
-% $I_0(x) is the first order modified Bessel function.
+% $I_0(x)$ is the first order modified Bessel function.
 
 %%%
 % This distribution can be approximate to a gaussian distribution when
@@ -218,7 +218,7 @@ legend(labels)
 % combinaison reconstruction.
 %
 % Mathematical description can be find in
-% <https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910380524 ?Constantinides et Al>
+% <https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910380524 Constantinides et Al>
 %
 % The noise distribution of L-elements array coil follow a non-central chi
 % distribution in function of the true noiseless signal $A_L$ :
