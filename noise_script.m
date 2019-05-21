@@ -1,4 +1,6 @@
-
+%% Noise in MRI
+% Matlab code to reproduce this presentation is available at :
+% <https://github.com/aTrotier/Noise_MRI>
 %% Observe noise distributioin in one channel
 % Noise Data has been acquired on a phantom (RF off, ADC ON)
 % 
